@@ -1,0 +1,243 @@
+#body{
+    border: 5px solid #000000;
+    font-family: 'Cabin', sans-serif;
+    background:#ffffff;
+    /*background: linear-gradient(0deg, rgba(231,225,222,1) 4%, rgba(158,158,158,1) 97%);*/
+    min-height:600vh;  
+}
+.top-header{
+    display:flex;
+    flex-direction:row;
+    font-size: 20px;
+    height: 140px;
+    justify-content:center;
+    align-items:center;
+    background-color: #c5c0bd;
+    
+}
+.spense{
+    flex:1 1 60%;
+    order:1;
+    margin-left:7%;
+}
+.business{
+    flex:1 1 20%;
+    order:2;
+    margin-left:20%;
+}
+.pricing{
+    flex:1 1 20%;
+    order:3;
+}
+.features{
+    flex:1 1 113%;
+    order:4;
+}
+.login{
+    flex:1 1 10%;
+    order:5;
+    margin-left:8%;
+}
+.get-started{
+    flex: 1 1 20%;
+    order:6;
+    color:white;
+    text-shadow:1px 1px 0px #000000;
+    background-color: #000000;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    padding: 10px 2px;
+    border-width:2px;
+    margin:50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/*the start of the first body*/
+.hero-party{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 2px solid black;
+    background-color: black;
+    color:#ffffff;
+    
+}
+
+.intro-wrapper{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    background-color: #c5c0bd;
+
+}
+.heading-intro{
+    flex: 1 1 300%;
+    align-self:center;
+    margin-left:340px;
+}
+ .img-one{
+ margin-right:50px;
+ width:500px;
+ 
+ }
+ ul{
+     list-style-image: url(file:///Users/sebastianramirez/Downloads/Spense%20Starter%20Files/Assets/Checkmark.svg);
+     flex:1 1 30px;
+    }
+ .big-lett{
+     font-size: 58px;
+     color:#000000;
+ }
+.caption{
+    margin-top:-50px;
+    color: #474439;
+    font-size: 19px;
+}
+
+.earnings-box{
+    border:2px solid rosybrown;
+    background-color: aliceblue;
+    height:95px;
+    width:70px;
+}
+/* sign in format*/
+form input[type=text]{
+    border-width:1px;
+    text-align: center;
+    height: 40px;
+    width:160px;
+    flex:1 1 60px;
+    border-radius:8px;
+}
+form input[type=submit]{
+    align-items:baseline;
+    border-width:1px;
+    border-radius: 8px;
+    margin-left:10px;
+    text-align:center;
+    height: 44px;
+    width:140px;
+    background-color: #000000;
+    color:#ffffff;
+}
+.social-bar{
+    display:flex;
+    text-align:justify;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    
+    
+    
+}
+.logo-img{
+    max-width: 80%;
+    height: auto;
+
+}
+.facebook{
+padding-left:200px;
+margin:20px;
+}
+
+.slack{
+    padding-right:200px;
+}
+.part-2{
+    background-color: #ffffff;
+}
+.second-header{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    background-color: #c5c0bd;
+    min-width:auto;
+    border-radius: 20px;
+    border-width: ;
+    margin:20px;
+    padding-top:20px;
+    
+}
+.phone-mock{
+ margin-right:205px;
+ width:910px;
+
+}
+.embed{
+    flex: 1 1 300%;
+    align-self: center;
+    margin-left: 340px;
+}
+.second-lett{
+    font-size:50px;
+    color:#000000;
+}
+.caption-2{
+    margin-top:-50px;
+    color: #474439;
+    font-size: 19px;
+}
+ins{
+    color: #000000;
+}
+.toolbar-menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+.video-content{
+    max-width: 50%;
+    height:auto;
+    display:inherit;
+}
+.embed-2{
+margin-top:195px;
+}
+.heading-3{
+    font-size:30px;
+    
+}
+.subheading-3{
+margin-top:-40px;
+color:#ececec;
+}
+a{
+    color:black;
+}
+.bottom-page{
+    border:solid 2px #000000;
+    min-height: 100vh;
+    background-color: #131214;
+    color:#ffffff;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:space-between;
+}
+.spense-bio{
+    margin-left:7%;
+    margin-top:4%;
+    al
+}
+.site-map{
+    margin-top:4%;
+}
+.resources{
+    margin-top:4%;
+}
+.company{
+    margin-top:4%;
+}
+.Opps{
+    margin-right:7%;
+    margin-top:4%;
+}
+p{
+    color:#bebebe;
+}
